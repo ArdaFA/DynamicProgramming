@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class HappyNumber {
 
+    /*
+    A happy number is a number that, when you repeatedly replace it with the sum of the squares of its digits, eventually reaches 1.
+    */
+    
     public static boolean isHappy(int number) {
         HashSet<Integer> seen = new HashSet<>();
 
